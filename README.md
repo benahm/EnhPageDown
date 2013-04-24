@@ -1,7 +1,7 @@
 EnhPageDown
 ===========
 <div align="center">
- <img onClick="window.location.href='#'" height="120" src="http://www.wpclipart.com/computer/keyboard_keys/special_keys/computer_key_Page_Down.png" alt="pagedown" />
+ <img  height="120" src="http://www.wpclipart.com/computer/keyboard_keys/special_keys/computer_key_Page_Down.png" alt="pagedown" />
  </div>
 
 
