@@ -81,13 +81,17 @@ label {
     font-weight: bold;
 }
 
+#content pre.prettyprint {
+    padding: 10px;
+    border: none;
+}
 
-
-
-
+#content li.L0, #content li.L1, #content li.L2, #content li.L3, #content li.L4, #content li.L5, #content li.L6, #content li.L7, #content li.L8, #content li.L9 {
+    list-style-type: decimal;
+}
 
 .grippie {
-    background: #EEEEEE url(../img/layout/grippie.png) no-repeat scroll center 2px;
+    background: #EEEEEE url(../img/markdown/grippie.png) no-repeat scroll center 2px;
     margin-top: -2px;
     border-color: #DDDDDD;
     border-style: solid;

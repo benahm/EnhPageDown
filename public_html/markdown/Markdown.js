@@ -37,45 +37,6 @@ function fr() {
     };
 }
 
-function ar() {
-    Markdown.local.value = {
-        bold: "غليظ <strong> Ctrl+B",
-        boldexample: "نص غليظ",
-        
-        italic: "مائل <em> Ctrl+I",
-        italicexample: "نص مائل",
-        
-        link: "رابط <a> Ctrl+L",
-        linkdescription: "وصف الرابط",
-        linkdialog: "<p><b>Insérer un hyperlien</b></p><p>http://example.com/ \"titre optionnel\"</p>",
-        
-        quote: "إقتباس <blockquote> Ctrl+Q",
-        quoteexample: "إقتباس",
-        
-        code: "كود <pre><code> Ctrl+K",
-        codeexample: "كود",
-        
-        image: "صورة <img> Ctrl+G",
-        imagedescription: "وصف للصورة",
-        imagedialog: "<p><b>Insérer une image</b></p><p>http://example.com/images/diagram.jpg \"titre optionnel\"<br><br><a href='http://www.google.com/search?q=free+image+hosting' target='_blank'>Vous chercher un hébergement d'image grauit ?</a></p>",
-        
-        olist: "قائمة مرقمة <ol> Ctrl+O",
-        ulist: "قائمة نقطية <ul> Ctrl+U",
-        litem: "عنصر قائمة",
-        
-        heading: "لقب <h1>/<h2> Ctrl+H",
-        headingexample: "لقب",
-        
-        hr: "خط أفقي <hr> Ctrl+R",
-        
-        undo: "إلغاء - Ctrl+Z",
-        redo: "إعادة تشكيل - Ctrl+Y",
-        redomac: "إعادة تشكيل - Ctrl+Shift+Z",
-        
-        help: "مساعدة"
-    };
-}
-
 $(document).ready(function() {
 
     Markdown.local = Markdown.local || {};
@@ -100,5 +61,5 @@ $(document).ready(function() {
     var editor = new Markdown.Editor(converter, null, options);
     editor.run();
     
-   // $('.wmd-input:not(.processed)').TextAreaResizer();    
+    $('.wmd-input:not(.processed)').TextAreaResizer();    
 });
