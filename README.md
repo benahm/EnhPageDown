@@ -12,5 +12,5 @@ It includes a converter that turns Markdown into HTML, a Markdown editor with re
 
 The Markdown converter can be used both in the browser (usually in conjunction with the editor, to display a real time preview), and on the server using Node.JS.
 
-##Enhancements
-  * Support of Tab key
+## Enhancements
+  * Support for the Tab key
